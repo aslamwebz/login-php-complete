@@ -1,0 +1,67 @@
+body,
+html {
+    height: 100%;
+	background: #f1f1f1;
+
+}
+
+#login{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#login-head{
+	background: linear-gradient(rgba(0,0,120,0.5), rgba(0,0,120,0.5)),url('img/back.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-left: 0;
+	padding-right: 0;
+	-webkit-box-shadow: 1px -1px 160px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px -1px 160px -6px rgba(0,0,0,0.75);
+	box-shadow: 1px -1px 160px -6px rgba(0,0,0,0.75);
+}
+
+#login-body{	
+	height: 700px;
+	background: white;
+	-webkit-clip-path: polygon(0% 0%, 35% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 35% 0, 100% 100%, 0% 100%);
+}
+
+#login-body input[type=text], input[type=password]{
+	padding:14px;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+#login-main{
+	padding-top: 100px;
+	padding-left: 50px;
+}
+
+#login-main h1{
+	font-weight: bold;
+}
+
+#login #social-button a{
+	margin-left: 10px;
+	margin-right: 5px;
+	border-radius: 50px;
+}
+
+#login #social-button i{
+	font-size: 1.2em;
+}
+
+#login-text{
+	color:white;
+	font-size: 1.2em;
+	padding-top: 80px;
+	font-weight: bold;
+
+}
+
+#login-text h1{
+	font-weight: bold;
+}
